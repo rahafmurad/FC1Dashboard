@@ -1,0 +1,19 @@
+.circle-multiline {
+    display: table-cell;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background: #445564;
+  }
+  
+  .circle-multiline:hover {
+    background-color: #0BA2B3;
+  }
+
+  .menu-title {
+    text-align: right;
+    padding: 0 16px;
+    margin: 0;
+  }

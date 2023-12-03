@@ -1,0 +1,49 @@
+
+
+.header {
+    background-color: #26303D;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+  }
+  
+  .header__right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__left {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .header h6 {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 9px;
+    color: #ffffff6b;
+  }
+  .header b {
+    margin: 0;
+    padding: 0 10px;
+    font-size: 9px;
+  }
+  
+  .brand-logo{
+    
+      width: 35px;
+      height: 27px;
+      
+      }
+  
+      .icon-small {
+        font-size: 15px;
+        padding-left: 10px;
+         color: #ffffff6b;
+      }
+  
+
+

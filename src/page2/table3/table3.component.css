@@ -1,0 +1,9 @@
+.full-width-table {
+    width: 100%;
+    height: 100%;
+    background-color: #26303D;
+      color: #fff;
+  }
+  .full-width-table th, .full-width-table td {
+    color: rgb(255, 255, 255); /* قم بتعيين لون المطلوب هنا */
+  }

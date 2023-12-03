@@ -1,0 +1,16 @@
+
+
+
+<div style="padding-left: 100px;" >
+    <div *ngFor="let item of list" style="display: flex; align-items: center;">
+      <mat-progress-bar [title]="item.title" [value]="item.value"></mat-progress-bar>
+      <div style="margin-left: 10px;">
+        <span style="font-size: 5px; font-weight: bold;">{{ item.title }}</span>
+      </div>
+    </div>
+
+  </div>
+  
+  <div>
+  
+  </div>

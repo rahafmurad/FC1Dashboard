@@ -1,0 +1,8 @@
+.mat-mdc-progress-bar {
+    --mdc-linear-progress-active-indicator-color: #435661; 
+    --mdc-linear-progress-track-color:#3CCDDE;
+    border-radius: 50%;
+    width: 50%;
+    height: 70%;
+    padding-top: 10px;
+  }

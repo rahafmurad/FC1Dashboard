@@ -1,0 +1,25 @@
+<table mat-table [dataSource]="myDataArray" class="full-width-table " >
+  
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef> المتحقق </th>
+      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
+    </ng-container>
+  
+   
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> المجدول </th>
+      <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+    </ng-container>
+  
+    
+    <ng-container matColumnDef="id2">
+      <th mat-header-cell *matHeaderCellDef> الفوج </th>
+      <td mat-cell *matCellDef="let element"> {{element.id2}} </td>
+    </ng-container>
+  
+  
+  
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>

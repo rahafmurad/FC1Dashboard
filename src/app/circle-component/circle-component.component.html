@@ -1,0 +1,10 @@
+<div [matMenuTriggerFor]="menu" class="circle-multiline" [ngClass]="{'clicked': isClicked}" (click)="onClick()">
+    {{isClicked ? item : item}}
+  </div>
+  
+  <mat-menu #menu="matMenu" >
+    <h5 class="menu-title">إبحث</h5>
+    <button mat-menu-item>ARFMUZ</button>
+    <button mat-menu-item (click)="navigateToNewPage()">MINARF</button>
+</mat-menu>
+

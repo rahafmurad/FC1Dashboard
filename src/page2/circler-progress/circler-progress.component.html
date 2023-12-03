@@ -1,0 +1,7 @@
+<div style="display: flex; align-items: center;">
+    <div *ngFor="let item of list" style="display: flex; align-items: center; margin-right: 25px;">
+      <mat-spinner [title]="item.title" [value]="item.value" [color]="item.color" mode="determinate"></mat-spinner>
+      <div style="margin-left: 10px;">
+      </div>
+    </div>
+  </div>

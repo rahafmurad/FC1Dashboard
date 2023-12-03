@@ -1,0 +1,117 @@
+<div class="container">
+    <div class="div1">
+        <div style="display: flex; align-items: center;">
+            <section style="padding-top: 70px; padding-left: 70px; position: relative;">
+                <app-circle-component [item]="'800'"></app-circle-component>
+                <h5 style="padding-left: 20px; margin: 0;">JMR</h5>
+                <b style="font-size: 10px;">محطة الجمرات</b>
+                <div style="position: absolute; right: 80%; top: 55%; transform: translate(0, -50%);">
+                    <h6 style="position: absolute; left: 350%; bottom: 1px; transform: translate(15, -50%);">0</h6>
+                    <div class="arrow"></div>
+
+                </div>
+               
+            </section>
+            <section style="padding-top: 70px;padding-left: 90px;">
+                <app-circle-component [item]="'1,000'"></app-circle-component>
+                <h5 style="padding-left: 20px; margin: 0;">HRM</h5>
+                <b style="font-size: 10px;">المسجد الحرام</b>
+            </section>
+            <section style="padding-top: 70px;padding-left: 170px;">
+                <app-circle-component [item]="'1,000'"></app-circle-component>
+                <h5 style="padding-left: 25px; margin: 0;">ASM</h5>
+                <b style="font-size: 10px;padding-left: 10px;" >نقاط التجمع </b>
+                <div style="position: absolute; right: 65%; top: 25%; transform: translate(0, -50%);">
+                    <h6 style="position: absolute; left: 355%; bottom: 1px; transform: translate(15, -50%);font-size: 20px;">-</h6>
+                    <div class="arrow" style="transform: scaleX(-1); left: 190px; "></div>
+
+                </div>
+            </section>
+            
+            <section style="padding-top: 70px;padding-left: 110px;">
+                <app-circle-component [item]="'1,000'"></app-circle-component>
+                <h5 style="padding-left: 25px; margin: 0;">INT</h5>
+                <b style="font-size: 10px;padding-left: 10px;"> حجاج الداخل </b>
+            </section>
+            
+        </div>
+       
+            <div style="display: flex; align-items: center;">
+              
+            <section style="padding-top: 90px;padding-left: 70px;">
+                <app-circle-component [item]="'1,000'"></app-circle-component>
+                <h5 style="padding-left: 20px; margin: 0;">MIN</h5>
+                <b style="font-size: 10px;padding-left: 5px;"> مخيمات منى </b>
+            </section>
+            <div style="position: absolute; top: 60%; right: 97%; transform: translate(0, -50%);">
+                <h6 style="position: absolute; left: 350%; bottom: 1px; transform: translate(15, -50%);">0</h6>
+                <div class="arrow"></div>
+
+            </div>
+            <section style="padding-top: 90px;padding-left: 90px;">
+                <app-circle-component [item]="'43,434'"></app-circle-component>
+                <h5 style="padding-left: 20px; margin: 0;">ARF</h5>
+                <b style="font-size: 10px;padding-left: 5px;"> مشعر عرفات </b>
+            </section>
+            
+            <div style="position: absolute; right: 80%; top: 60%; transform: translate(0, -50%);">
+                <h6 style="position: absolute; left: 350%; bottom: 1px; transform: translate(15, -50%);">0</h6>
+                <div class="arrow"></div>
+
+            </div>
+            <section style="padding-top: 90px;padding-left: 180px;">
+                <app-circle-component [item]="'0'"></app-circle-component>
+                <h5 style="padding-left: 25px; margin: 0;">MUZ</h5>
+                <b style="font-size: 10px;padding-left: 10px;" >مشعر مزدلفة   </b>
+                <div style="position: absolute; right: 65%; top: 25%; transform: translate(0, -50%);">
+                    <h6 style="position: absolute; left: 355%; bottom: 1px; transform: translate(15, -50%);font-size: 20px;">-</h6>
+                    <div class="arrow" style="transform: scaleX(-1); left: 190px; "></div>
+
+                </div>
+                <div  style="position: absolute; right: 73%; top: 85%; transform: translate(0, -50%);">   
+                <app-rounded-arrow></app-rounded-arrow>
+                <h6 style="position: absolute; left: 90%; bottom: 5px; ">0</h6>
+
+            </div>
+
+            </section>
+           
+        </div>
+   
+       
+     
+
+
+    </div>
+
+    <div class="div2" style="display: grid; grid-template-columns: auto auto;">
+
+        <div style="padding-left: 80px; padding-top: 70px;">
+            <h1>ذي الحجة</h1>
+            <h5 style="padding-left: 3px; font-size: 13px;">07:38 - 07:33</h5>
+        </div>
+        <div style="padding-right: 5px;">
+            <h1 style="font-size: 50px; padding-top: 90px;">11</h1>
+        </div>
+
+
+        <div style="justify-content: center; ">
+            <app-sidebar>
+            </app-sidebar>
+
+        </div>
+        <div style="display: grid; grid-template-rows: auto auto;">
+            <section style="padding-top: 100px;">
+                <span class="material-icons" style="padding-top: 150px;">
+                    person
+                </span>
+                <h5>عدد الحجاج</h5>
+                <h4>55,571</h4>
+            </section>
+        </div>
+
+
+    </div>
+
+
+</div>
